@@ -23,7 +23,7 @@ app.use(express.urlencoded({ extended: false }));
 // If you need to allow specific origins:
 //const allowedOrigins = ['http://localhost:3000', 'https://yourfrontenddomain.com'];
 app.use(cors({
-    origin: ['http://localhost:3000', "http://localhost:4173"],
+    origin: ['http://localhost:3000', "http://localhost:4173", "https://mern-stack-form-validation-with-file-upload-font-end.vercel.app"],
     credentials: true,
   }))
 
